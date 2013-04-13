@@ -1,6 +1,6 @@
 require 'mechanize'
 
-module Scrapper
+class Scrapper
   include Sidekiq::Worker
 
   def perform
