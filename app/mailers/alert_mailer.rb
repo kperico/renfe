@@ -6,7 +6,7 @@ class AlertMailer < ActionMailer::Base
 
     mail to: @alert.recipients,
          bcc: "pablo.molinacandel@gmail.com",
-         subject: "¡Ya hay trenes disponibles!"
+         subject: "¡Tachán! Ya hay trenes disponibles"
   end
 
   def new(alert)
@@ -18,6 +18,6 @@ class AlertMailer < ActionMailer::Base
   def created(alert)
     @alert = alert
 
-    mail to: @alert.recipients, subject: "Nueva alerta"
+    mail to: @alert.recipients, subject: "¡Al loro! Otra alerta eh"
   end
 end
