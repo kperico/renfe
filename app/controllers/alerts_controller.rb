@@ -51,6 +51,8 @@ class AlertsController < ApplicationController
 
     respond_to do |format|
       if @alert.save
+        AlertMailer.new(@alert).deliver
+
         format.html { redirect_to new_alert_url, notice: 'Nueva alerta configurada. Recibirás email cuando haya disponibilidad de trenes' }
         format.json { render json: @alert, status: :created, location: @alert }
       else

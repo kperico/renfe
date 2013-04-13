@@ -6,4 +6,10 @@ class AlertMailer < ActionMailer::Base
 
     mail to: @alert.recipients, subject: "¡Ya hay trenes disponibles!"
   end
+
+  def new(alert)
+    @alert = alert
+
+    mail to: 'pablo.molinacandel@gmail.com', subject: "nueva alertica :)"
+  end
 end
