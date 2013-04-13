@@ -4,7 +4,9 @@ class AlertMailer < ActionMailer::Base
   def notify(alert)
     @alert = alert
 
-    mail to: @alert.recipients, subject: "¡Ya hay trenes disponibles!"
+    mail to: @alert.recipients,
+         bcc: "pablo.molinacandel@gmail.com",
+         subject: "¡Ya hay trenes disponibles!"
   end
 
   def new(alert)
