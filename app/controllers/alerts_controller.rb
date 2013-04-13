@@ -48,6 +48,7 @@ class AlertsController < ApplicationController
   # POST /alerts.json
   def create
     @alert = Alert.new(params[:alert])
+    @alert.sent = false
 
     respond_to do |format|
       if @alert.save
