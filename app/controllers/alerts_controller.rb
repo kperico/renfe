@@ -91,6 +91,6 @@ class AlertsController < ApplicationController
   end
 
   def process_alerts
-    Scrapper.perform
+    Scrapper.perform_async
   end
 end

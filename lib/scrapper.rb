@@ -1,8 +1,9 @@
 require 'mechanize'
 
 module Scrapper
+  include Sidekiq::Worker
 
-  def self.perform
+  def perform
     a = Mechanize.new
     a.user_agent_alias = 'Mac Mozilla'
     a.verify_mode = OpenSSL::SSL::VERIFY_NONE

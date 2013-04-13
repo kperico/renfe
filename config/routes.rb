@@ -1,4 +1,7 @@
 Renfe::Application.routes.draw do
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
+
   resources :users
 
   match 'process' => 'alerts#process_alerts'
