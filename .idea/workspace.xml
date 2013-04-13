@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scrapper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+            <state line="29" column="6" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.8888889">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alerts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="alerts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="23" selection-start="959" selection-end="959" vertical-scroll-proportion="0.26190478">
+            <state line="51" column="23" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,10 +134,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/lib/scrapper.rb" />
         <option value="$PROJECT_DIR$/app/mailers/alert_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/alert_mailer/created.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/scrapper.rb" />
       </list>
     </option>
   </component>
@@ -783,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="54" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
@@ -820,7 +813,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="959" selection-end="959" vertical-scroll-proportion="0.26190478">
+        <state line="51" column="23" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="6" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.8888889">
           <folding />
         </state>
       </provider>

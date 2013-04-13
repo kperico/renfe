@@ -23,8 +23,10 @@ class Scrapper
       doc = result.parser
       trains = doc.css("[name='trenIda_radio']").length > 0
 
-      AlertMailer.notify(alert).deliver if trains
-      alert.update_attribute(:sent, true)
+      if trains
+        AlertMailer.notify(alert).deliver
+        alert.update_attribute(:sent, true)
+      end
     end
 
   end
