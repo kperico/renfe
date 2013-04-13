@@ -64,19 +64,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alert_mailer.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="alert_mailer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="66" selection-start="425" selection-end="425" vertical-scroll-proportion="0.58800775">
+            <state line="23" column="19" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="958" selection-end="958" vertical-scroll-proportion="-4.48">
+            <state line="22" column="20" selection-start="979" selection-end="979" vertical-scroll-proportion="-0.14196242">
               <folding />
             </state>
           </provider>
@@ -857,16 +857,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="958" selection-end="958" vertical-scroll-proportion="-4.48">
+        <state line="23" column="19" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="425" selection-end="425" vertical-scroll-proportion="0.58800775">
+        <state line="22" column="20" selection-start="979" selection-end="979" vertical-scroll-proportion="-0.14196242">
           <folding />
         </state>
       </provider>
