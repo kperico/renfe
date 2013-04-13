@@ -22,34 +22,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="-2.56">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alerts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="26" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alert_mailer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="56" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="13" selection-end="102" vertical-scroll-proportion="-3.2">
               <folding />
             </state>
           </provider>
@@ -58,25 +31,7 @@
       <file leaf-file-name="notify.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/notify.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/alerts/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.92">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="185" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -91,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scrapper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.031558186">
+            <state line="2" column="5" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +58,52 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/alerts/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="25" selection-start="637" selection-end="637" vertical-scroll-proportion="-9.6">
+            <state line="15" column="25" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alerts_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="43" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alert_mailer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="54" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="created.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/created.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="39" selection-start="151" selection-end="151" vertical-scroll-proportion="0.1300813">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="17" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,29 +122,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/alerts/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/alerts/process_alerts.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/alerts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/mailers/alert_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/alert_mailer/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/alerts/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/alerts/new.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/lib/scrapper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/alert_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/alert_mailer/created.html.haml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="690" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -172,7 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -384,13 +383,14 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -642,33 +642,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="e35259ec-386e-4b14-94ba-2ca68fd4b3c9" name="Default" comment="" />
       <created>1365839779707</created>
       <updated>1365839779707</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="690" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="687" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6713533" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617504" sideWeight="0.6713533" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -724,93 +725,46 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="44" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/alerts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="692" selection-end="692" vertical-scroll-proportion="-11.52">
-          <folding />
-        </state>
+        <state line="18" column="22" selection-start="692" selection-end="692" vertical-scroll-proportion="-11.52" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="272" selection-end="288" vertical-scroll-proportion="-6.4">
-          <folding />
-        </state>
+        <state line="10" column="20" selection-start="272" selection-end="288" vertical-scroll-proportion="-6.4" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="493" column="8" selection-start="19010" selection-end="19010" vertical-scroll-proportion="1.5542169">
-          <folding />
-        </state>
+        <state line="493" column="8" selection-start="19010" selection-end="19010" vertical-scroll-proportion="1.5542169" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="943" selection-end="960" vertical-scroll-proportion="-4.48">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/notify.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="97" selection-end="97" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
+        <state line="21" column="42" selection-start="943" selection-end="960" vertical-scroll-proportion="-4.48" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/alerts/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="637" selection-end="637" vertical-scroll-proportion="-9.6">
+        <state line="15" column="25" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/alerts/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.92">
-          <folding />
-        </state>
+        <state line="3" column="13" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="29" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="26" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -831,7 +785,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.031558186">
+        <state line="2" column="5" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="43" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/alert_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="54" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/notify.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="185" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="13" selection-end="102" vertical-scroll-proportion="-3.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/alert_mailer/created.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="151" selection-end="151" vertical-scroll-proportion="0.1300813">
           <folding />
         </state>
       </provider>
