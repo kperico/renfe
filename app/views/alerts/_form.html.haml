@@ -1,0 +1,16 @@
+= form_for @alert, :html => { :class => 'form-horizontal' } do |f|
+  %fieldset
+    .control-group
+    .controls
+      = f.select :from, Station.list, {include_blank: true}, {:"data-placeholder" => "Estación de origen"}
+    .control-group
+    .controls
+      = f.select :to, Station.list, {include_blank: true}, {:"data-placeholder" => "Estación de destino"}
+    .control-group
+    .controls
+      = f.text_field :when, :placeholder => 'Fecha', :class => 'text_field date_input'
+    .control-group
+    .controls
+      = f.text_field :recipients, :placeholder => 'Emails', :class => 'text_field'
+    .form-actions
+      = f.submit nil, :class => 'btn btn-primary'

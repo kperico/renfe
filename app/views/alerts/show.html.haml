@@ -1,0 +1,43 @@
+- model_class = Alert
+.page-header
+  %h1= t '.title', :default => model_class.model_name.human
+%dl.dl-horizontal
+  %dt
+    %strong
+      = model_class.human_attribute_name(:name)
+      \:
+  %dd= @alert.name
+  %dt
+    %strong
+      = model_class.human_attribute_name(:recipients)
+      \:
+  %dd= @alert.recipients
+  %dt
+    %strong
+      = model_class.human_attribute_name(:from)
+      \:
+  %dd= @alert.from
+  %dt
+    %strong
+      = model_class.human_attribute_name(:to)
+      \:
+  %dd= @alert.to
+  %dt
+    %strong
+      = model_class.human_attribute_name(:when)
+      \:
+  %dd= @alert.when
+  %dt
+    %strong
+      = model_class.human_attribute_name(:sent)
+      \:
+  %dd= @alert.sent
+.form-actions
+  = link_to t('.edit', :default => t("helpers.links.edit")), |
+    edit_alert_path(@alert), :class => 'btn'                 |
+  -#
+  = link_to t('.destroy', :default => t("helpers.links.destroy")),                                               |
+    alert_path(@alert),                                                                                          |
+    :method => 'delete',                                                                                         |
+    :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, |
+    :class => 'btn btn-danger'                                                                                   |
