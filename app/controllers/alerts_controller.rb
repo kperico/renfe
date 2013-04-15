@@ -49,7 +49,6 @@ class AlertsController < ApplicationController
   def create
     @alert = Alert.new(params[:alert])
     @alert.sent = false
-    AlertMailer.notify_me(@alert).deliver
 
     if @alert.hit_web
       redirect_to new_alert_url, notice: "¡Hey! Ya hay trenes para esta fecha. Visita <a href='http://www.renfe.com'>Renfe</a>".html_safe
@@ -58,6 +57,7 @@ class AlertsController < ApplicationController
 
     respond_to do |format|
       if @alert.save
+        AlertMailer.notify_me(@alert).deliver
         AlertMailer.created(@alert).deliver
 
         format.html { redirect_to new_alert_url, notice: 'Nueva alerta configurada. Recibirás email cuando haya disponibilidad de trenes' }
