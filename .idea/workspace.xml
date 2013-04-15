@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="957" selection-end="957" vertical-scroll-proportion="0.5344468">
+            <state line="21" column="39" selection-start="957" selection-end="957" vertical-scroll-proportion="-10.24">
               <folding />
             </state>
           </provider>
@@ -82,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scrapper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.123791106">
               <folding />
             </state>
           </provider>
@@ -123,12 +123,12 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/alerts.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/alerts/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/views/alerts/new.html.haml" />
-        <option value="$PROJECT_DIR$/lib/scrapper.rb" />
         <option value="$PROJECT_DIR$/app/models/alert.rb" />
         <option value="$PROJECT_DIR$/app/mailers/alert_mailer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/lib/scrapper.rb" />
       </list>
     </option>
   </component>
@@ -864,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="4" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
@@ -887,7 +880,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="957" selection-end="957" vertical-scroll-proportion="0.5344468">
+        <state line="21" column="39" selection-start="957" selection-end="957" vertical-scroll-proportion="-10.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scrapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.123791106">
           <folding />
         </state>
       </provider>
