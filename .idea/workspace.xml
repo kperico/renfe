@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e35259ec-386e-4b14-94ba-2ca68fd4b3c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sticky_footer.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-    </list>
+    <list default="true" id="e35259ec-386e-4b14-94ba-2ca68fd4b3c9" name="Default" comment="" />
     <ignored path="renfe.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="6" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.76617956">
+            <state line="47" column="6" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-14.68">
               <folding />
             </state>
           </provider>
@@ -79,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="5" selection-start="598" selection-end="598" vertical-scroll-proportion="0.515873">
               <folding />
             </state>
           </provider>
@@ -132,9 +126,9 @@
         <option value="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/lib/scrapper.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sticky_footer.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -881,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sticky_footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
@@ -897,7 +884,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.76617956">
+        <state line="47" column="6" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-14.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="598" selection-end="598" vertical-scroll-proportion="0.515873">
           <folding />
         </state>
       </provider>
