@@ -1,9 +1,18 @@
 body {
-  background-color: #fff;
+  background: #ddd url(http://www.pabli.co/images/bg.jpg) repeat top left;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+
+footer {
+  background: #ddd url(http://www.pabli.co/images/bg.jpg) repeat top left;
+  color: #333;
+  font-family: lobster, verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0px 0px 0px 20px;
 }
 
 p, ol, ul, td {
