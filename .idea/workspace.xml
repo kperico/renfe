@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e35259ec-386e-4b14-94ba-2ca68fd4b3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/alerts/new.html.haml" afterPath="$PROJECT_DIR$/app/views/alerts/new.html.haml" />
     </list>
     <ignored path="renfe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/alerts/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="13" selection-end="34" vertical-scroll-proportion="-1.28">
+            <state line="5" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.16260162">
               <folding />
             </state>
           </provider>
@@ -33,7 +33,7 @@
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/alerts/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-1.28">
+            <state line="17" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="-10.88">
               <folding />
             </state>
           </provider>
@@ -66,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="39" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.53235906">
+            <state line="48" column="39" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-10.2">
               <folding />
             </state>
           </provider>
@@ -136,10 +136,10 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sticky_footer.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/alerts/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/alerts/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/alerts/new.html.haml" />
       </list>
     </option>
   </component>
@@ -869,20 +869,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/alerts/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="13" selection-end="34" vertical-scroll-proportion="-1.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/alerts/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-1.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
@@ -906,7 +892,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="39" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.53235906">
+        <state line="48" column="39" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-10.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/alerts/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="-10.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/alerts/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.16260162">
           <folding />
         </state>
       </provider>
