@@ -38,7 +38,7 @@ group :test, :development do
 end
 
 gem 'haml'
-gem 'slim'
+gem 'slim', '>= 1.3.8'
 gem 'twitter-bootstrap-rails'
 gem 'rails-i18n'
 

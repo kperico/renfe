@@ -163,21 +163,21 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.3)
       tilt (~> 1.3, >= 1.3.3)
-    slim (1.0.1)
-      temple (~> 0.3.0)
-      tilt (~> 1.2)
+    slim (1.3.8)
+      temple (~> 0.6.3)
+      tilt (~> 1.3.3)
     spork (1.0.0rc3)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    temple (0.3.5)
+    temple (0.6.4)
     therubyracer (0.11.4)
       libv8 (~> 3.11.8.12)
       ref
     thor (0.18.1)
-    tilt (1.4.1)
+    tilt (1.3.7)
     timers (1.1.0)
     treetop (1.4.12)
       polyglot
@@ -223,7 +223,7 @@ DEPENDENCIES
   sidekiq
   sidekiq-failures
   sinatra (>= 1.3.0)
-  slim
+  slim (>= 1.3.8)
   spork (~> 1.0rc)
   therubyracer
   twitter-bootstrap-rails
