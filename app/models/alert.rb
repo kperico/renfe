@@ -23,5 +23,7 @@ class Alert < ActiveRecord::Base
     found = doc.css("[name='trenIda_radio']").length > 0
     yield self if found && block_given?
     return found
+  rescue Net::HTTP::Persistent::Error => e
+    logger.error e.backtrace
   end
 end
