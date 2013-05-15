@@ -9,6 +9,8 @@ gem 'pg'
 
 gem 'awesome_print'
 
+gem 'exception_notification', require: 'exception_notifier'
+
 # Gem used only for assets and not required
 # in production environments by default.
 group :assets do

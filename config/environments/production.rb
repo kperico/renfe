@@ -52,7 +52,7 @@ Renfe::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable threaded mode
-  # config.threadsafe!
+  config.threadsafe!
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)
@@ -79,4 +79,9 @@ Renfe::Application.configure do
     :enable_starttls_auto => true
   }
 
+  # Send excaptions by email
+  config.middleware.use ExceptionNotifier,
+    :email_prefix => "[Exception] ",
+    :sender_address => %{"Error Renfe" <pablo.molinacandel@gmail.com>},
+    :exception_recipients => %w{pablo.molinacandel@gmail.com}
 end
