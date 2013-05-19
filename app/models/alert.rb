@@ -20,7 +20,12 @@ class Alert < ActiveRecord::Base
                     'Content-Type' => 'application/x-www-form-urlencoded')
 
     doc = result.parser
-    found = doc.css("[name='trenIda_radio']").length > 0
+    matches_count = doc.css("a.link_gris").length
+    if matches_count > a.matches
+      found = true
+      a.update_attribute(:matches, matches_count)
+    end
+
     yield self if found && block_given?
     return found
   rescue Net::HTTP::Persistent::Error => e

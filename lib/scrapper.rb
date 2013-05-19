@@ -8,7 +8,7 @@ class Scrapper
     Alert.where(sent: false).each do |alert|
       alert.hit_web do |a|
         AlertMailer.notify(a).deliver
-        a.update_attribute(:sent, true)
+        #a.update_attribute(:sent, true)
       end
     end
   end

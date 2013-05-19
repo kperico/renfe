@@ -57,7 +57,6 @@ class AlertsController < ApplicationController
 
     respond_to do |format|
       if @alert.save
-        AlertMailer.notify_me(@alert).deliver
         AlertMailer.created(@alert).deliver
 
         format.html { redirect_to new_alert_url, notice: 'Nueva alerta configurada. Recibirás email cuando haya disponibilidad de trenes' }
@@ -99,5 +98,12 @@ class AlertsController < ApplicationController
 
   def process_alerts
     Scrapper.perform_async
+  end
+
+  def unsubscribe
+    @alert = Alert.find(params[:id])
+    @alert.update_attribute(:sent, true)
+
+    redirect_to new_alert_url, notice: 'No recibirás más emails sobre esa alerta.'
   end
 end

@@ -5,6 +5,7 @@ Renfe::Application.routes.draw do
   resources :users
 
   match 'process' => 'alerts#process_alerts'
+  match 'unsubscribe' => 'alerts#unsubscribe'
   resources :alerts
 
   root to: 'alerts#new'
