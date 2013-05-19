@@ -21,9 +21,9 @@ class Alert < ActiveRecord::Base
 
     doc = result.parser
     matches_count = doc.css("a.link_gris").length
-    if matches_count > a.matches
+    if matches_count > self.matches
       found = true
-      a.update_attribute(:matches, matches_count)
+      self.update_attribute(:matches, matches_count)
     end
 
     yield self if found && block_given?
