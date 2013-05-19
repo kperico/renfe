@@ -50,21 +50,16 @@ class AlertsController < ApplicationController
     @alert = Alert.new(params[:alert])
     @alert.sent = false
 
-    if @alert.hit_web
-      redirect_to new_alert_url, notice: "¡Hey! Ya hay trenes para esta fecha. Visita <a href='http://www.renfe.com'>Renfe</a>".html_safe
-      return
-    end
-
-    respond_to do |format|
-      if @alert.save
-        AlertMailer.created(@alert).deliver
-
-        format.html { redirect_to new_alert_url, notice: 'Nueva alerta configurada. Recibirás email cuando haya disponibilidad de trenes' }
-        format.json { render json: @alert, status: :created, location: @alert }
+    if @alert.save
+      if @alert.hit_web
+        @alert.update_attribute(:sent, true)
+        redirect_to new_alert_url, notice: "¡Hey! Ya hay trenes para esta fecha. Visita <a href='http://www.renfe.com'>Renfe</a>".html_safe
       else
-        format.html { render action: "new" }
-        format.json { render json: @alert.errors, status: :unprocessable_entity }
+        AlertMailer.created(@alert).deliver
+        redirect_to new_alert_url, notice: 'Nueva alerta configurada. Recibirás email cuando haya disponibilidad de trenes'
       end
+    else
+      render action: "new"
     end
   end
 
