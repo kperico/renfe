@@ -29,6 +29,16 @@
   %dd= @alert.when
   %dt
     %strong
+      = model_class.human_attribute_name(:matches)
+      \:
+  %dd= @alert.matches
+  %dt
+    %strong
+      = model_class.human_attribute_name(:times)
+      \:
+  %dd= @alert.times
+  %dt
+    %strong
       = model_class.human_attribute_name(:sent)
       \:
   %dd= @alert.sent

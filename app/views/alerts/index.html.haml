@@ -10,6 +10,8 @@
       %th= model_class.human_attribute_name(:to)
       %th= model_class.human_attribute_name(:when)
       %th= model_class.human_attribute_name(:sent)
+      %th= model_class.human_attribute_name(:matches)
+      %th= model_class.human_attribute_name(:times)
       %th= model_class.human_attribute_name(:created_at)
       %th= t '.actions', :default => t("helpers.actions")
   %tbody
@@ -21,6 +23,8 @@
         %td= alert.to
         %td= alert.when
         %td= alert.sent
+        %td= alert.matches
+        %td= alert.times
         %td= l alert.created_at
         %td
           = link_to t('.edit', :default => t("helpers.links.edit")),
