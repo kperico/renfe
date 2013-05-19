@@ -37,6 +37,7 @@ class Alert < ActiveRecord::Base
       self.save
 
       yield self if block_given?
+      return times.present?
     end
   rescue Net::HTTP::Persistent::Error => e
     logger.error e.backtrace
