@@ -1,5 +1,6 @@
 class Alert < ActiveRecord::Base
   attr_accessible :from, :name, :recipients, :sent, :to, :when
+  serialize :times, Array
 
   validates :from, :recipients, :to, :when, presence: true
   
@@ -22,12 +23,21 @@ class Alert < ActiveRecord::Base
     doc = result.parser
     matches_count = doc.css("a.link_gris").length
     if matches_count > self.matches
-      found = true
-      self.update_attribute(:matches, matches_count)
-    end
+      self.matches = matches_count
 
-    yield self if found && block_given?
-    return found
+      rows = doc.css('tr')
+      times = []
+      rows.each do |row|
+        leaves_at = row.xpath('td[2]')
+        if leaves_at.present? && leaves_at.attr('headers').try(:value).try(:strip) == 'Salida'
+          times << leaves_at.text.strip
+        end
+      end
+      self.times = times if times.present?
+      self.save
+
+      yield self if block_given?
+    end
   rescue Net::HTTP::Persistent::Error => e
     logger.error e.backtrace
   end

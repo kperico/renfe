@@ -1,5 +1,11 @@
 %h1 Trenes disponibles
-%h2= "Hay trenes de #{@alert.from} a #{@alert.to} para el #{@alert.when.strftime('%d/%m/%Y')}"
+%h2= "Hay #{@alert.matches} trenes de #{@alert.from} a #{@alert.to} para el #{@alert.when.strftime('%d/%m/%Y')}"
+%br/
+Horarios disponibles:
+%br/
+- @alert.times.each do |leaves_at|
+  %ul
+    %li= leaves_at
 %br/
 Visita
 %a{:href => 'www.renfe.com'} renfe
