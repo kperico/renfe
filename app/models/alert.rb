@@ -37,7 +37,7 @@ class Alert < ActiveRecord::Base
 
       yield self if block_given?
       return times.present?
-    elsif doc.css("[name='trenIda_radio']").length > 0
+    elsif times.length == 0 && doc.css("[name='trenIda_radio']").length > 0
       raise 'Hay resultados y no se procesaron horarios?'
     end
   rescue Net::HTTP::Persistent::Error => e
