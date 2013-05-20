@@ -30,7 +30,7 @@ class Alert < ActiveRecord::Base
       end
     end
 
-    if times.present?
+    if times.present? && times.length > self.matches
       self.matches = times.length
       self.times = times
       self.save
