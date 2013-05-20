@@ -21,23 +21,24 @@ class Alert < ActiveRecord::Base
                     'Content-Type' => 'application/x-www-form-urlencoded')
 
     doc = result.parser
-    matches_count = doc.css("a.link_gris").length
-    if matches_count > self.matches
-      self.matches = matches_count
-
-      rows = doc.css('tr')
-      times = []
-      rows.each do |row|
-        leaves_at = row.xpath('td[2]')
-        if leaves_at.present? && leaves_at.attr('headers').try(:value).try(:strip) == 'Salida'
-          times << leaves_at.text.strip
-        end
+    rows = doc.css('tr')
+    times = []
+    rows.each do |row|
+      leaves_at = row.xpath('td[2]')
+      if leaves_at.present? && leaves_at.attr('headers').try(:value).try(:strip) == 'Salida'
+        times << leaves_at.text.strip
       end
-      self.times = times if times.present?
+    end
+
+    if times.present?
+      self.matches = times.length
+      self.times = times
       self.save
 
       yield self if block_given?
       return times.present?
+    elsif doc.css("[name='trenIda_radio']").length > 0
+      raise 'Hay resultados y no se procesaron horarios?'
     end
   rescue Net::HTTP::Persistent::Error => e
     logger.error e.backtrace
